@@ -20,11 +20,11 @@
 
 @end
 
-@interface test3 : XCTestCase
+@interface AboutExpects : XCTestCase
     // You can add XYZPerson as a property on
 @end
 
-@implementation test3
+@implementation AboutExpects
 
 - (void)setUp {
     [super setUp];

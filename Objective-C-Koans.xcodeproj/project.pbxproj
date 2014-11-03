@@ -11,6 +11,8 @@
 		71689EF51A041FB10084C73B /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 71689EF41A041FB10084C73B /* XYZPerson.m */; };
 		71689EFF1A069E140084C73B /* HelloWorldSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71689EFE1A069E140084C73B /* HelloWorldSampleTests.m */; };
 		71689F191A06AB500084C73B /* AboutExpects.m in Sources */ = {isa = PBXBuildFile; fileRef = 71689F181A06AB500084C73B /* AboutExpects.m */; };
+		71689F201A07E1400084C73B /* AboutArrays.m in Sources */ = {isa = PBXBuildFile; fileRef = 71689F1F1A07E1400084C73B /* AboutArrays.m */; };
+		71689F211A07E1400084C73B /* AboutArrays.m in Sources */ = {isa = PBXBuildFile; fileRef = 71689F1F1A07E1400084C73B /* AboutArrays.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,7 @@
 		71689F141A06AB500084C73B /* test3.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test3.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71689F171A06AB500084C73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71689F181A06AB500084C73B /* AboutExpects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutExpects.m; sourceTree = "<group>"; };
+		71689F1F1A07E1400084C73B /* AboutArrays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutArrays.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,7 @@
 		71689F151A06AB500084C73B /* TestKoans */ = {
 			isa = PBXGroup;
 			children = (
+				71689F1F1A07E1400084C73B /* AboutArrays.m */,
 				71689F181A06AB500084C73B /* AboutExpects.m */,
 				71689F161A06AB500084C73B /* Supporting Files */,
 			);
@@ -290,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71689EFF1A069E140084C73B /* HelloWorldSampleTests.m in Sources */,
+				71689F201A07E1400084C73B /* AboutArrays.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71689F191A06AB500084C73B /* AboutExpects.m in Sources */,
+				71689F211A07E1400084C73B /* AboutArrays.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
